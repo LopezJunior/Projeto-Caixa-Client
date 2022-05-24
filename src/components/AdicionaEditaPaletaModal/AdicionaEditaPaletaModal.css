@@ -1,0 +1,64 @@
+.AdicionaPaletaModal {
+  font-family: "Exo";
+  border-radius: 10px;
+  max-height: 350px;
+  box-sizing: border-box;
+  width: 325px;
+  display: flex;
+  position: relative;
+  transform: translateY(-15px);
+  margin-right: -45px;
+}
+
+.AdicionaPaletaModal form div {
+  display: flex;
+  margin: 15px 0;
+}
+
+.AdicionaPaletaModal form {
+  width: 100%;
+}
+
+.AdicionaPaletaModal div input {
+  border: none;
+  background: rgba(255, 255, 255, 0.3);
+  width: 100%;
+  margin-left: 15px;
+  border-radius: 5px;
+  height: 20px;
+  padding: 2px 10px;
+}
+
+.AdicionaPaletaModal__text {
+  font-size: 1em;
+  line-height: 100%;
+}
+
+.AdicionaPaletaModal__foto-label {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 5px;
+  color: darkviolet;
+  cursor: pointer;
+  padding: 5px 10px;
+}
+
+.AdicionaPaletaModal__foto {
+  display: none;
+}
+
+.AdicionaPaletaModal__enviar {
+  background-color: darkviolet;
+  cursor: pointer;
+  color: white;
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+  padding: 5px;
+}
+
+.AdicionaPaletaModal__enviar:disabled {
+  background-color: gray;
+}
